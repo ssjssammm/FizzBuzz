@@ -2,8 +2,9 @@ package lab1;
 
 public class Multiples {
     public static void main(String[] arg) {
+      //multiples(1000, 5, 3)
     }
-    static int multiples(){
+    public static int multiples(){
         return multiples(1000, 5, 3);
     }
 
