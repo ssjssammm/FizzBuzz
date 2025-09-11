@@ -9,7 +9,7 @@ public class Multiples {
         return multiples(1000,3 ,5);
     }
 
-     static int multiples(int n, int a, int b) {
+     public static int multiples(int n, int a, int b) {
         int i;
         int count = 0;
         for (i=1; i < n; i++) {
