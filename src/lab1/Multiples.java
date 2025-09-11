@@ -2,14 +2,13 @@ package lab1;
 
 public class Multiples {
     public static void main(String[] arg) {
-        System.out.println(multiples());
     }
 
-     static int multiples() {
+     static int multiples(int a, int b, int n) {
         int i;
         int count = 0;
-        for (i=1; i<1000; i++) {
-            if (i % 3 == 0 || i % 5 == 0){
+        for (i=1; i < n; i++) {
+            if (i % a == 0 || i % b == 0){
                 count +=1;
             }
         }
