@@ -4,14 +4,14 @@ public class Multiples {
     public static void main(String[] arg) {
     }
     static int multiples(){
-        return multiples(5, 3, 1000);
+        return multiples(1000, 5, 3);
     }
 
      static int multiples(int a, int b, int n) {
         int i;
         int count = 0;
-        for (i=1; i < n; i++) {
-            if (i % a == 0 || i % b == 0){
+        for (i=1; i < a; i++) {
+            if (i % b == 0 || i % n == 0){
                 count +=1;
             }
         }
