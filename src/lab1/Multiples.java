@@ -2,11 +2,10 @@ package lab1;
 
 public class Multiples {
     public static void main(String[] arg) {
-        int count = multiples();
-        System.out.println(count);
+        System.out.println(multiples());
     }
 
-    private static int multiples() {
+     static int multiples() {
         int i;
         int count = 0;
         for (i=1; i<1000; i++) {
